@@ -1,0 +1,156 @@
+.header{
+    display: flex;
+    gap: 90px;
+    width: 100vw;
+    height: 90px;
+    background-color: rgb(255, 98, 0);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    input{
+        width: 360px;
+        height: 30px;
+        background-color: white;
+       
+    }
+    #search{
+        height: 33px;
+        background-color: aliceblue;
+        color: black;
+        border: 1px solid grey;
+       
+    }
+    #ip{
+        display: flex;
+        align-items: center;
+        
+    }
+    h2{
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.817);
+        font-size: 45px;
+    }
+    
+}
+.image{
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    .img{
+        padding: 30px;
+        padding-bottom: -0px;
+  
+    }
+
+}
+.li ul  {
+    display: flex;
+    gap:20px;
+    color: rgb(63, 62, 62) ;
+    font-size: 40px;
+    justify-content: center;
+    .li1{
+        color:rgb(153, 151, 151);
+    }
+}
+.body{
+    display: flex;
+    gap: 5px;
+    background-color: rgba(255, 255, 255, 0.85);
+    color: black;
+    padding: 10px;
+    .danhmuc{
+        background-color: white;
+        height: 250px;
+        width:190px;
+        padding: 6px ;
+       
+    }
+    #danhmuc{
+        display: flex;
+        font-size: 17px;
+        align-items: center;
+    }
+    #all{
+        color: red;
+        display: flex;
+    }
+}
+.product{
+    /* background-color: white; */
+    width: 80vw;
+    ul{
+        display: flex;
+        list-style: none;
+        gap: 10px;
+        text-align: center;
+        /* padding: 5px; */
+        margin-top: -1px;
+        margin-left:-30px;
+        
+        
+    }
+    ul li{
+        background-color: white;
+        width: 200px;
+        padding: 10px;   
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.31);
+        border-radius: 10px;
+        line-height: 0.1;
+        p{
+            font-size: 10px;
+        }
+
+    }
+}
+#iphone{
+    width: 120px;
+    height: 150px;
+}
+#name{
+    font-weight: bold;
+    margin-left: -90px;
+    font-size: 15px;
+}
+#price{
+    color: red;
+    font-size: 12px;
+}
+#icon{
+    color: blue;
+    /* margin-left: -150px */
+   
+}
+.Applee{
+    display: flex;
+    gap: 90px;
+    /* p{
+        
+    } */
+}
+#font{
+    font-weight: bold;
+}
+.footer{
+    background-color: rgba(255, 255, 255, 0.85);
+    color: rgba(80, 78, 78, 0.904);
+    display: flex;
+    gap: 80px;
+    margin-top:-22px ;
+    border: 1px solid red;
+    p{
+        font-size: 13px;
+        line-height: 0.6;
+    }
+}
+#hr{
+   color: red;
+    font-size: 20px;
+}
+.develop{
+    p{
+        color: red;
+    }
+}
+
+
+
